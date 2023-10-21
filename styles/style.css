@@ -1,34 +1,65 @@
 *{
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
+    margin: 0px 20px;
     padding: 0;
 }
 /* Navigation Syles */
-h2{
-    font-size: xx-large;
-    margin-top: 12px;
-    margin-left: 20px;
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 10px;
 }
 nav{
     display: flex;
+    justify-content: space-between;
+    /* margin-left: 80px; */
 }
 nav li{
     list-style: none;
     display: inline-block;
     margin-left: 10px;
-    padding: 5px 15px;
-    margin-top: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
 }
 span{
     color: rgb(249, 144, 23);
 }
 nav li:hover{
-    background-color: lightslategray;
+    background-color: rgb(249, 144, 23);
 }
-
 li a{
+    color: black;
     text-decoration: none;
+    margin-top: 25px;
 }
-h2{
-    color: blue;
+.nav-btn{
+    width: 120px;
+    height:40px ;
+    border: none;
+    margin-left: 20px;
+    background-color: rgb(249, 144, 23);
+    padding: 7px 0px;
+}
+/* Header Button Styles */
+.banner{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#download-btn{
+    background-color: rgb(249, 144, 23);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+#contact-btn{
+    border: 1px solid rgb(249, 144, 23);
+    background-color: white ;
+    padding: 10px 15px;
+}
+img{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    width: 500px; 
 }
